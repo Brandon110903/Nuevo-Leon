@@ -3,11 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuevo Leon</title>
+    <!-- keyword sirve para darle con ciertas palabras especificaciones de tu pagina  -->
+    <meta name="keywords" content="mexico, inversiones, carne asada">
+    <!-- La descripcion es lo que viene abajo de el link cuando lo buscas en en explorador  -->
+    <meta name="description" content="En Nuevo Leon hay muchas cosas como .... ">
+    <title>Nuevo Leon</title> 
+    <!-- Este tipo de style es en bloque y es mejor para darle forma al codigo y se puede generalizar para varios elementos a la vez  -->
+    <style>  
+        .parrafo1 {
+            font-size :5px;
+        }
+    </style>
 </head>
-<body>
-    <h1>Nuevo Leon es asombroso </h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In dolor omnis, nisi assumenda unde architecto reprehenderit, deserunt natus quia exercitationem molestiae consequuntur facere dolorum a ea porro, vero non autem?</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque molestias neque repellendus libero dolor vel sequi voluptate sed cumque dolorem, possimus soluta ipsa fugit modi at praesentium commodi dolores facilis!</p>
+<body style="background-color:black">
+<!-- Tabindex sirve para cuando tabules se vaya en orden, el style en linea se individualiza por cada etiqueta y class es para poder darle un diferenciador de los demas parrafos  -->
+    <h1 tabindex="1"style="background-color: cadetblue;"class ="parrafo1">Nuevo Leon es asombroso </h1>
+<!-- Los espacios no existen en html para poder ponerle espacios se usa &nbsp y por cada uno de esos es un espacio en blanco  -->
+    <h2>UANL &nbsp; facpya</h2>
+    <p tabindex="2"id="p-ini" class ="parrafo1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In dolor omnis, nisi assumenda unde architecto reprehenderit, deserunt natus quia exercitationem molestiae consequuntur facere dolorum a ea porro, vero non autem?</p>
+
+    <p tabindex="3" style="background-color: blueviolet;" class = "parrafo3 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque molestias neque repellendus libero dolor vel sequi voluptate sed cumque dolorem, possimus soluta ipsa fugit modi at praesentium commodi dolores facilis!</p>
 </body>
 </html>
